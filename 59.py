@@ -1,0 +1,10 @@
+a=int(input("輸入金額"))
+b=a%100
+c=a//100
+d=b%50
+e=b//50
+f=d%10
+g=d//10
+h=f%5
+i=f//5
+print(c+e+g+h+i)
